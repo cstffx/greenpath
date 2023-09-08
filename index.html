@@ -5,11 +5,123 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
     <title>Green path</title>
+    <base href="https://cstffx.github.io/greenpath3/">
+    <style type="text/css">
 
-  <script type="module" crossorigin src="/assets/index-e538bac2.js"></script>
-  <link rel="stylesheet" href="/assets/index-f9c2721a.css">
+        @font-face {
+            font-family: "Supernatural Knight";
+            src: local("Supernatural Knight"),
+            url("font.ttf") format("truetype");
+        }
+
+        html, body {
+            font-family: "Supernatural Knight", serif;
+            background: #090909;
+            color: #ededed;
+            text-align: center;
+            font-size: 1.2rem;
+            padding: 1rem;
+        }
+
+        a {
+            color: inherit; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+        }
+
+        .x_title {
+            font-size: 0.8rem;
+        }
+
+        .x_image {
+            opacity: 0;
+            justify-content: center;
+            align-content: center;
+            margin-top: 30px;
+            transition: opacity 1s ease-in;
+            display: flex;
+        }
+
+        .x_image img {
+            width: 80%;
+        }
+
+        .x_image--display {
+            opacity: 1;
+        }
+
+        .img-container-display {
+            opacity: 1;
+        }
+
+        .x_text-container .secondary-text {
+            color: #7e7e7e;
+        }
+
+        .mt-1 {
+            padding-top: 1rem;
+        }
+
+        .fs-05 {
+            font-size: 0.8rem;
+        }
+
+        .flower-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 2rem;
+        }
+
+        .x_book_list {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .x_book {
+            padding: 1rem;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            font-size: 14px;
+            background: rgb(11 11 11);
+        }
+
+        .x_book_info {
+            padding-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .x_book_title {
+            font-size: 14px;
+        }
+
+        .x_book_subtitle {
+            font-size: 11px;
+            color: #7e7e7e;
+        }
+
+        .x_flower {
+            width: 64px;
+        }
+
+        .x_idea {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+        }
+        .x_idea img {
+            width: 16px;
+            height: 16px;
+        }
+    </style>
+  <script type="module" crossorigin src="/assets/index-361de1a1.js"></script>
 </head>
 <body>
 <div id="app"></div>
